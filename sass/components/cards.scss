@@ -1,0 +1,75 @@
+/* For mobile phones: */
+.card-section{
+    width: 100%;
+    padding: 0.5em;
+    color: $gray-font;
+    
+    > h3 {
+        margin: 0 auto 0.4em;
+        font-weight: bold;
+        font-family: $openSans;
+        text-align: center;
+    }
+
+    > .borderbtm {
+        width: 7em;
+        border: solid 1px $green-bg; 
+        margin: 0 auto;
+    } 
+
+    > .card-cont {
+        width: 100%;
+        padding: 0.8em;
+        margin-top: 0.5em;
+    }
+ 
+    .card {
+        display: flex;
+        align-items: center;
+        
+        >i {
+            font-size: 1.5em;  
+            margin-right: 1em; 
+        } 
+
+        .blue {
+            color: #1976D5; 
+        }
+
+        .orange {
+            color: $orange-font;
+        }
+
+        .green {
+            color: $green-font;
+        } 
+
+        .red {
+            color: $red-font;
+        }
+
+
+    }
+}
+  
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .card-cont {
+        width: 100%;
+        padding: 0.5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2em; 
+
+        p {
+            font-size: 0.8em;
+        }
+    }  
+}
+   
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+  .hero-images{
+       
+   }
+}  
