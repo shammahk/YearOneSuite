@@ -5,11 +5,6 @@
     display: flex;
     align-items: center;
 
-    img:hover {
-        opacity: 0.7 !important;
-        cursor: pointer;
-    }
-
     >.left, >.right {
         height: 80%;
         width: 25%;

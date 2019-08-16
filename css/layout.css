@@ -130,10 +130,6 @@
   display: flex;
   align-items: center;
 }
-.hero-images img:hover {
-  opacity: 0.7 !important;
-  cursor: pointer;
-}
 .hero-images > .left, .hero-images > .right {
   height: 80%;
   width: 25%;
@@ -432,6 +428,7 @@ header > .logo img {
   text-decoration: none;
   color: #ffff;
   margin-bottom: 10px;
+  transition: 0.3s all ease-in;
 }
 .dwn-btn > i {
   font-size: 1.5em;
@@ -454,6 +451,10 @@ header > .logo img {
   margin: 0;
   max-width: fit-content;
   display: inline-block;
+}
+.dwn-btn:hover {
+  background: #ffff;
+  color: #27AE60;
 }
 
 /*# sourceMappingURL=layout.css.map */

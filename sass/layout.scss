@@ -1,7 +1,6 @@
 @import './variables/fonts.scss';
 @import './variables/colors.scss';
 @import './components/cards.scss';
-@import './components/dwnload-btn.scss';
 @import './components/headline.scss';
 @import './components/hero-images.scss';
 
@@ -130,6 +129,7 @@ header {
     text-decoration: none;
     color: $white-font; 
     margin-bottom: 10px;  
+    transition: 0.3s all ease-in;
     // text-align: center;
 
     >i {
@@ -156,5 +156,10 @@ header {
         margin: 0;
         max-width: fit-content;
         display: inline-block;
+    }
+
+    &:hover {
+        background: $white-font;
+        color: $green-bg;
     }
 }
